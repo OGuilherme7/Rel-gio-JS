@@ -17,10 +17,6 @@ setInterval(function(){
         P6: paragrafoDecimalHoras
     }
 
-    for (var i in paragrafosRelógio) {
-        paragrafosRelógio[i].classList.remove("fadeOut");
-    }
-
     setTimeout(function(){
         paragrafosRelógio.p1.classList.remove("fadeOut");
     }, 200)
