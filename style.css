@@ -1,0 +1,27 @@
+#relógio {
+    text-align: center;
+    margin-top: 70px;
+}
+
+.ponteiros {
+    border: 3px solid black;
+    height: 100px;
+    width: 80px;
+    display: inline-block;
+}
+
+.ponteiros p {
+    margin: 0;
+    font-size: 90px;
+    font-family: arial;
+}
+
+#relógio .dois-pontos {
+    display: inline-block;
+    font-size: 70px;
+}
+
+.fadeOut {
+    opacity: 0;
+    transition: 0.5s;
+}
